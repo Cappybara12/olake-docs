@@ -46,7 +46,6 @@ const SlackChannels = [
             </div>
           ))}
         </div>
-        <Link legacyBehavior href={"https://olake.io/slack"} className='p-4 bg-blue-600 w-fit text-center  rounded-full text-white '> Join OLake community Slack</Link>
         <div>Need direct access to our team and SLAs for support?
               <span className='text-blue-500 font-semibold cursor-pointer'> Talk to our team</span></div>
       </div>  
