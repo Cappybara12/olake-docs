@@ -97,6 +97,11 @@ const config = {
       defer: true,
     },
     {
+      id: 'luma-checkout',
+      src: 'https://embed.lu.ma/checkout-button.js',
+      defer: true,
+    },
+    {
       id: "runllm-widget-script",
       type: "module",
       src: "https://widget.runllm.com",

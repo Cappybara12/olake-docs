@@ -12,6 +12,7 @@ import SetupStepsSection from '../components/site/SetupStepsSection'
 import RegistrationSection from '../components/site/RegistrationSection'
 import BlogShowcase from '../components/site/BlogShowcase'
 import Footer from '../components/site/Footer.tsx'
+import CommunityWeekBanner from '../components/site/CommunityWeekBanner'
 
 export default function New3Page() {
   const OLakeFaqs = [
@@ -82,6 +83,7 @@ export default function New3Page() {
       title='OLake'
       description='Fastest Database to Data Lakehouse data replication tool, open sourced'
     >
+      <CommunityWeekBanner />
       <div className='w-full overflow-x-hidden bg-white dark:bg-gray-900'>
         <DataWarehouseToLakes />
         <WorkflowSection />
